@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    background-color: #1C2524;
+}
+
+.container {
+    width: 100vw;
+    height: 95vh;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+main .sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 80vh;
+}
+
+.sec .img {
+    width: 65%;
+    height: 100%;
+    background-image: url("./image/pexels-matheus-bertelli-3856020.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form {
+    background-color: #1C2524;
+    width: 70%;
+    height: 100%;
+}
+
+.form form {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #1C2524;
+}
+
+.form form h2 {
+    font-size: 40px;
+    color: #12CDBD;
+}
+
+.form form span {
+    color: #AFE9E4;
+}
+
+.form form input {
+    outline: 0;
+    background-color: #1C2524;
+    color: #CDFFFB;
+    padding: 8px;
+}
+
+.form form .camp {
+    border: 0;
+    border-bottom: 2px solid #72A19E;
+    border-width: 2px;
+    width: 75%;
+}
+
+.form form input::placeholder {
+    color: #12CDBD;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+}
+
+.form form input[type="submit"] {
+    background-color: #0B877D;
+    color: #CDFFFB;
+    font-size: 25px;
+    border: none;
+    padding: 6px;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 10px;
+    width: 35%;
+}
+
+.form form input {
+    margin-bottom: 15px;
+}
